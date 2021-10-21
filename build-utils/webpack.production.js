@@ -7,7 +7,6 @@ module.exports = () => ({
   module: {
     rules: [
       { test: /\.css$/, use: [MiniCssExtractPlugin.loader, "css-loader"]},
-      { test: /\.jp?g$/, use: ["url-loader"]}
     ]
   },
   plugins: [

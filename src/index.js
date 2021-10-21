@@ -6,6 +6,7 @@ import './footer.css';
 import './button.css';
 import imageURL from './webpack-logo.jpg'
 import makeImage from "./image";
+import Foo from "./foo.ts";
 
 const button = makeButton("My first button!")
 button.style = makeColorStyle("pink")
